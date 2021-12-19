@@ -1,6 +1,6 @@
-#include <cstring>
+// #include <cstring>
 #include <iostream>
-// #include <string>
+#include <string>
 
 using namespace std;
 
@@ -27,10 +27,16 @@ main ()
   cout << str.length () << endl;
   cout << str.size () << endl;
 
-  strcpy (dog, cat);
-  strcat (dog, cat);
+  strcpy (dog, cat); // char数组复制
+  strcat (dog, cat); // char数组追加
 
   cout << dog << endl;
+
+
+  string s ;
+  getline(cin,s); // string 输入cin形式 
+
+  cout << s << endl;
 
   return 0;
 }

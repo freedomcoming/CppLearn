@@ -19,7 +19,7 @@ main ()
   Books Book1;
   Books Book2;
 
-  Books Book3{ "test", "test", "test", 100 };
+  Books Book3 = { "test", "test", "test", 100 };
   printBook (Book3);
 
   Books structValue = { "test1", "test1", "test1", 1100 };
