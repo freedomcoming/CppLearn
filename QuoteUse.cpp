@@ -19,6 +19,7 @@ int main ()
     i = 5;
     cout << "Value of i : " << i << endl;
     cout << "Value of i reference : " << r  << endl;
+    cout << &i << "|"<< &r << endl;
 
     d = 11.7;
     cout << "Value of d : " << d << endl;
