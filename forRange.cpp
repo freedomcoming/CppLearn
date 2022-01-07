@@ -21,5 +21,10 @@ main ()
       x = 0.8 * x;
       cout << x << endl;
     };
+  for (double x : d)
+    {
+      cout << x << endl;
+    };
+  
   return 0;
 }
