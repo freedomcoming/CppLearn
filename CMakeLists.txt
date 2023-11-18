@@ -3,7 +3,7 @@
 #
 cmake_minimum_required (VERSION 3.8)
 
-project ("CMakeProject")
+    project ("CMakeProject")
 
 # 将源代码添加到此项目的可执行文件。
 #add_executable (CMakeProject "CMakeProject.cpp" "CMakeProject.h"  "MethodOverload.cpp"       "ListUse.cpp" "PointUse.cpp" "PretreatmentUse.cpp" "QuoteUse.cpp"   "TemplateUse.cpp" "StructUse.cpp" "DynamicObj.cpp" "FunctionUse.cpp" "TypesUse.cpp" "ConstTypeUse.cpp" "UnicodeUse.cpp" "CharUse.cpp" "DefineUse.cpp")
